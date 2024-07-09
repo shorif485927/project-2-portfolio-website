@@ -1,0 +1,292 @@
+
+   
+    /* common code starts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+h3{
+     color: rgb(24, 24, 24);
+     font-family: Open Sans;
+     font-size: 30px;
+     font-weight: 700;
+     line-height: 48px;
+     letter-spacing: 0%;=
+  }
+
+
+
+/* .open-sans-font-family {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+/* * common code ends  */
+
+ header{
+   
+   position: relative;
+ }
+
+.img-1{
+     width: 100px;
+      height: 500px;
+      position: absolute;
+      top: 10px;
+      margin-left: 30px;
+}
+
+.img-2{
+      width: 40%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+}
+
+
+
+
+/* * nav starts  */
+.portfolio__btn{
+     background-color:#FD6E0A ;
+     padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.portfolio__btn.contact{
+      background-color: white;
+      border: 1px solid #FD6E0A;
+      color: #FD6E0A;
+      margin-left: 15px;
+}
+
+
+nav{
+     display: flex;
+      justify-content: space-between;
+         margin: 0 100px;
+      padding: 15px 50px ;
+
+}
+
+.nav__logo{
+     font-size: 45px;
+     text-transform: uppercase;
+     font-weight: 800;
+     font-family: "Open Sans", sans-serif;
+
+}
+nav span{
+     color: #FD6E0A;
+}
+
+nav ul {
+     display: flex;
+     align-items: center;
+}
+
+nav ul li{
+     list-style: none;
+      font-size: 20px;
+      text-transform: capitalize;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      margin-right: 35px;
+
+}
+
+nav ul li a{
+     text-decoration: none;
+}
+
+
+/* * nav ends  */
+
+
+/* * banner starts  */
+
+          .banner{
+                width: 100%;               
+                display: flex;
+                 justify-content: space-between;
+                  align-items: center;          
+                   margin-bottom: 100px;
+                  
+          }
+
+          .banner .banner__cnt{
+                width: 40%;
+                margin-left: 150px;
+          }
+
+          .banner .banner__img{
+               margin-right: 15px;
+               z-index: 100;
+          }
+
+
+        .banner h1{
+          color: rgb(24, 24, 24);
+          font-family: Open Sans;
+          font-size: 60px;
+          font-weight: 700;
+          line-height: 80px;
+          letter-spacing: 0%;
+          text-align: left;
+          margin: 5px 0 20px;
+        }
+
+        .banner p{
+          color: rgb(117, 117, 117);
+          font-family: Open Sans;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0%;
+          text-align: left;
+          margin-bottom: 30px;
+        }
+
+        .banner .banner__img img{
+            width: 100%;
+             height: 450px;
+        }
+
+
+        .banner__btn i{
+           margin: 0 5px;
+        }
+
+        .banner__btn button{
+           
+        }
+/* *banner ends  */
+
+/* about section starts*/
+
+  .about{
+       width: 50%;
+background: rgb(255, 248, 243);
+ padding: 70px 90px;
+ margin:  0 auto;
+      text-transform: capitalize;
+      font-family: "Open Sans", sans-serif;
+  }
+
+  .about .about__cnt{
+      background-color: white;
+      padding: 15px;
+  }
+
+  .about__cnt h3{
+text-align: center;
+  }
+
+
+  .about__cnt p{
+      
+     color: rgb(117, 117, 117);
+     font-family: Open Sans;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 25px;
+     letter-spacing: 0;
+     text-transform: lowercase;
+     text-align: center;
+     margin: 30px 0;
+  }
+
+  .about .about__info{
+      display: flex;
+      justify-content: space-around;
+  }
+
+/* about section ends  */
+
+/* skill section starts  */
+
+
+   .skill{
+      width: 100%;
+margin: 100px 0;
+   }
+
+
+
+
+   .skill__cnt{
+      width: 50%;
+      margin: 0 auto;
+
+   }
+
+   .skill__cnt h3{
+      text-align: center;
+   }
+
+
+
+.skill__cnt p{
+     color: rgb(117, 117, 117);
+     font-family: Open Sans;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+     letter-spacing: 0%;
+     text-transform: lowercase;
+}
+
+.skill__cards{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 40px;
+}
+
+.skill__card{
+      width: 17%;
+      border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+padding: 33px;
+
+}
+
+.skill__card h6{
+     color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+margin: 30px 0;
+}
+
+.skill__card p{
+     color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+/* skill section ends  */
+
+
+
+
